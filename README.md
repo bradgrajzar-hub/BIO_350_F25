@@ -26,4 +26,8 @@ This notebook demonstrates how to import, visualize, and analyze population data
 -Plotting the population size over time using matplotlib, with a highlighted reference line at a population size of 276.
 -Calculating the average population size between days 17 and 60.
 -Displaying the result of the average calculation.
--This example provides a practical introduction to basic data analysis and visualization techniques in Python for ecological data.
+-This example provides a practical introduction to basic data analysis and visualization techniques in Python for ecological data. 
+
+IC Assignment 4: Lotka-Volterra Competition
+
+-This program simulates the Lotka–Volterra competition model, which extends logistic growth to include interactions between two species. Using carrying capacities and competition coefficients, the notebook models how a colonizing plant and a threatened plant compete for space over time. The analysis demonstrates the ecological principle of competitive exclusion, showing that coexistence is only possible when both species compete more strongly with themselves than with each other.
