@@ -30,4 +30,8 @@ This notebook demonstrates how to import, visualize, and analyze population data
 
 IC Assignment 4: Lotka-Volterra Competition
 
--This program simulates the Lotka–Volterra competition model, which extends logistic growth to include interactions between two species. Using carrying capacities and competition coefficients, the notebook models how a colonizing plant and a threatened plant compete for space over time. The analysis demonstrates the ecological principle of competitive exclusion, showing that coexistence is only possible when both species compete more strongly with themselves than with each other.
+-This program simulates the Lotka–Volterra competition model, which extends logistic growth to include interactions between two species. Using carrying capacities and competition coefficients, the notebook models how a colonizing plant and a threatened plant compete for space over time. The analysis demonstrates the ecological principle of competitive exclusion, showing that coexistence is only possible when both species compete more strongly with themselves than with each other. 
+
+IC Assignment 5: Rabies Removal: SIR Models 
+
+This script simulates the spread of rabies in a fox population using a simple SIR (Susceptible, Infected, Removed) model with daily time steps. It applies difference equations to update the number of susceptible, infected, and removed foxes over a 30-day period, starting from given initial conditions and parameter values for the infection rate (β) and death rate (d). The program prints the daily results for each class and generates a line plot that illustrates how the epidemic evolves over time, including the peak of infections and the eventual number of deaths.
