@@ -48,7 +48,7 @@ DNA Barcoding
 DNA barcoding is basically using a short stretch of DNA as an ID tag to figure out what species you’re looking at. If you find an unknown sample, you sequence that short region and compare it to a reference library to see where it fits. It’s like scanning a product at the store, but for species, and it’s especially helpful in ecology and even in catching mislabeled food.
 
 Diversity Metrics – Alpha vs. Beta Diversity
-Alpha diversity tells you how diverse one sample is on its own—for example, how many species are present and how evenly they’re distributed. Beta diversity compares across samples to see how different communities are from each other. Together, these two perspectives help us understand both the richness of a single environment and how much variation exists between environments.
+Alpha diversity tells you how diverse one sample is on its own, for example, how many species are present and how evenly they’re distributed. Beta diversity compares across samples to see how different communities are from each other. Together, these two perspectives help us understand both the richness of a single environment and how much variation exists between environments.
 
 Data Analysis
 
