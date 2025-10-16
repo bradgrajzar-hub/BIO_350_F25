@@ -34,4 +34,47 @@ IC Assignment 4: Lotka-Volterra Competition
 
 IC Assignment 5: Rabies Removal: SIR Models 
 
-This code simulates the spread of rabies in a fox population using a simple SIR (Susceptible, Infected, Removed) model with daily time steps. It applies difference equations to update the number of susceptible, infected, and removed foxes over a 30-day period, starting from given initial conditions and parameter values for the infection rate (β) and death rate (d). The program prints the daily results for each class and generates a line plot that illustrates how the epidemic evolves over time, including the peak of infections and the eventual number of deaths.
+This code simulates the spread of rabies in a fox population using a simple SIR (Susceptible, Infected, Removed) model with daily time steps. It applies difference equations to update the number of susceptible, infected, and removed foxes over a 30-day period, starting from given initial conditions and parameter values for the infection rate (β) and death rate (d). The program prints the daily results for each class and generates a line plot that illustrates how the epidemic evolves over time, including the peak of infections and the eventual number of deaths. 
+
+Review of Analysis Presentation Concepts
+Biological Analysis
+
+Amplicon Sequencing vs. Whole Genome Sequencing
+Amplicon sequencing looks at just one specific part of the genome, like the 16S rRNA gene in bacteria, to get a quick snapshot of which species are present. It’s cheaper and faster, but limited to that one region. Whole genome sequencing gives you everything, the entire genetic blueprint—so you not only know what’s there but also what functions those organisms might have. Amplicon is good for a community overview, while whole genome is for deeper functional and evolutionary questions.
+
+DNA Barcoding
+DNA barcoding is basically using a short stretch of DNA as an ID tag to figure out what species you’re looking at. If you find an unknown sample, you sequence that short region and compare it to a reference library to see where it fits. It’s like scanning a product at the store, but for species, and it’s especially helpful in ecology and even in catching mislabeled food.
+
+Diversity Metrics – Alpha vs. Beta Diversity
+Alpha diversity tells you how diverse one sample is on its own—for example, how many species are present and how evenly they’re distributed. Beta diversity compares across samples to see how different communities are from each other. Together, these two perspectives help us understand both the richness of a single environment and how much variation exists between environments.
+
+Data Analysis
+
+Extrapolation and Normalization
+When we normalize data, we’re putting everything on the same scale so comparisons make sense—for example, adjusting sequencing reads so one sample with more total reads doesn’t unfairly dominate. Extrapolation is when we use the data we have to make a reasonable guess about what’s beyond it, like estimating the number of rare species we didn’t catch in a survey. Both are important tools to deal with real-world datasets that are often messy or incomplete.
+
+Lag Analysis
+Lag analysis looks for delayed relationships between variables. For example, if prey numbers go up this year, predator numbers might not increase until the following year, and lag analysis helps us see that connection. It’s especially useful in time series studies where cause and effect don’t line up perfectly in time.
+
+Modeling Concepts
+
+Generalized Mixed Effect Model
+A GLMM is what you use when your outcome variable isn’t a simple continuous number—maybe it’s counts, like the number of birds observed, or yes/no data, like whether a species is present. It lets you model those outcomes while still accounting for random effects, like variation between different sites. This makes it really flexible for ecological or health studies where the data aren’t “nice and normal.”
+
+Linear Mixed Effect Model
+A linear mixed effect model is used when you have repeated or grouped data that share some structure, like measuring multiple trees within the same forest. It accounts for both the overall trend (the fixed effects) and the differences between groups (the random effects). Without it, you might overstate results because you’d be ignoring that not all observations are independent.
+
+Allometric Scaling Models
+Allometric scaling is about how traits change with size—for example, how metabolic rate increases with body mass but not in a straight line. These models often follow a predictable curve or power law, like the famous three-quarters scaling rule. They’re a simple but powerful way of showing that biology has consistent patterns across very different organisms.
+
+Linear vs. Logistic Regression
+Linear regression is your go-to when you want to predict a continuous outcome, like height or weight, and it assumes a straight-line relationship with the predictors. Logistic regression comes into play when your outcome is a yes/no type of question, like whether a plant survives or not. It’s less about predicting an exact number and more about predicting probabilities.
+
+Non-linear Regression
+Sometimes relationships just aren’t straight lines, it lets you fit curves to data, which is often more realistic for biological systems that plateau, accelerate, or change in unexpected ways. It’s trickier to fit, but it gives a much better picture when linear assumptions don’t hold up.
+
+Random Forests
+Random forests are a machine learning method that works by building a whole bunch of decision trees and averaging their results. Think of it like asking a hundred people the same question and taking the majority answer—it smooths out errors and gives a more reliable prediction. They’re especially good for complex datasets and can also show you which variables matter most.
+
+Cross-Validation and Model Accuracy
+Cross-validation is basically a way to test how well your model will work on new data. You split your data into training and testing sets, build the model on one, and then see how it does on the other. This helps catch overfitting, where the model memorizes the training data but fails on anything new, and gives you confidence that your results are actually meaningful.
