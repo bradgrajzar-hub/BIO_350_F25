@@ -36,6 +36,8 @@ IC Assignment 5: Rabies Removal: SIR Models
 
 This code simulates the spread of rabies in a fox population using a simple SIR (Susceptible, Infected, Removed) model with daily time steps. It applies difference equations to update the number of susceptible, infected, and removed foxes over a 30-day period, starting from given initial conditions and parameter values for the infection rate (β) and death rate (d). The program prints the daily results for each class and generates a line plot that illustrates how the epidemic evolves over time, including the peak of infections and the eventual number of deaths. 
 
+
+
 Review of Analysis Presentation Concepts
 Biological Analysis
 
