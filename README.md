@@ -79,4 +79,8 @@ Random Forests
 Random forests are a machine learning method that works by building a whole bunch of decision trees and averaging their results. Think of it like asking a hundred people the same question and taking the majority answer—it smooths out errors and gives a more reliable prediction. They’re especially good for complex datasets and can also show you which variables matter most.
 
 Cross-Validation and Model Accuracy
-Cross-validation is basically a way to test how well your model will work on new data. You split your data into training and testing sets, build the model on one, and then see how it does on the other. This helps catch overfitting, where the model memorizes the training data but fails on anything new, and gives you confidence that your results are actually meaningful.
+Cross-validation is basically a way to test how well your model will work on new data. You split your data into training and testing sets, build the model on one, and then see how it does on the other. This helps catch overfitting, where the model memorizes the training data but fails on anything new, and gives you confidence that your results are actually meaningful. 
+
+IC Assignment 6 
+This code simulates the population dynamics of a beetle species using an age-structured matrix model. It compares two scenarios: one with no control measures and one where traps remove 5% of second- and third-year beetles each year. The model projects the population for 50 years, tracking each age class and the total population. The results are visualized in a plot, showing how even a small increase in adult mortality from trapping can significantly reduce long-term beetle numbers.
+
