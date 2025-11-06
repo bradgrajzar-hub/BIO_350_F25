@@ -1,0 +1,4 @@
+Year,Fishing_Mortality_F,Tag_Mortality_FA,Natural_Mortality_M,Total_Mortality_Z_model,Total_Mortality_Z_table,Survival_S_model,Survival_S_table
+2014,0.237,0.199,0.755,1.191,1.008,0.3039171948625785,0.365
+2015,0.237,0.371,0.755,1.363,1.021,0.25589194844208374,0.36
+2016,0.033,0.065,0.755,0.853,0.793,0.4261346085981487,0.453
